@@ -6,7 +6,7 @@
     <artifactId>jrimum-bopepo</artifactId>
     <packaging>jar</packaging>
     <name>Projeto Bopepo</name>
-    <version>0.2.3-DEV-SNAPSHOT</version>
+    <version>0.2.4-DEV-SNAPSHOT</version>
     <description>Projeto open source de componentes de software para o domínio de negócios do Brasil.</description>
     <url>http://www.jrimum.org/bopepo</url>
 
@@ -241,6 +241,16 @@
     </dependencies>
 
     <repositories>
+        <repository>
+            <id>jboss</id>
+            <url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
         <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
